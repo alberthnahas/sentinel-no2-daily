@@ -1,0 +1,21 @@
+ANALISIS TROPOMI NO2 - RINGKASAN EKSEKUTIF
+
+Tanggal Analisis: 7 Agustus 2025 pukul 13:13:27 WIB
+Area Focus: Pulau Jawa
+Dimensi Citra: 1915 x 3944 piksel
+
+TEMUAN UTAMA:
+• Konsentrasi NO2 maksimum yang terdeteksi: 20.00 ×10¹⁵ molekul/cm²
+• Rata-rata konsentrasi regional: 14.33 ×10¹⁵ molekul/cm²
+• Cakupan polusi tinggi: 0.00% dari area yang dianalisis
+• Total hotspot polusi yang diidentifikasi: 20
+• Hotspot dengan nama lokasi: 20
+
+HOTSPOT UTAMA:
+KOTA SERANG (terdekat), Laut Jawa, SERANG
+
+PENILAIAN POLUSI:
+Analisis menunjukkan konsentrasi NO2 yang signifikan di wilayah studi. Beberapa hotspot mengindikasikan adanya sumber emisi aktif yang memerlukan perhatian.
+
+TRANSPORT ATMOSFERIK:
+Arah angin dominan: Selatan (190.0°) berdasarkan analisis 3 plume

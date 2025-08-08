@@ -1,0 +1,10 @@
+Ringkasan Analisis TROPOMI NO2 - 7 Agustus 2025
+
+NO2 Maks: 20.00 ×10¹⁵ molekul/cm²
+NO2 Rata-rata: 14.33 ×10¹⁵ molekul/cm²
+Hotspot: 20 lokasi (20 dengan nama)
+Cakupan Polusi Tinggi: 0.00%
+
+Status: MENINGKAT
+Lokasi Utama: KOTA SERANG (terdekat), Laut Jawa, SERANG
+Selatan (190.0°) berdasarkan analisis 3 plume
