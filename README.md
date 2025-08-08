@@ -30,7 +30,7 @@ The entire process is automated via the `00-autorun-sentinel-no2.sh` script, whi
 6.  **Generate Windrose Data**: `05-generate-windrose-data.py` processes the wind NetCDF file to create JSON data for wind rose plots.
 7.  **Calculate Regional Averages**: `06-region-average.py` computes the average NO2 concentrations for provinces and cities across Java.
 8.  **File Transfer**: Transfers the output files (`png`, `json`, `txt`) to a specified web server.
-9.  **Archive Data**: Uploads the raw NetCDF data files (`.nc`) to a Google Drive folder using `rclone`.
+9.  **Archive Data**: Uploads the raw NetCDF data files (`.nc`) from the `nc/` directory to a Google Drive folder using `rclone`.
 
 ## Scripts Description
 
@@ -52,7 +52,7 @@ The entire process is automated via the `00-autorun-sentinel-no2.sh` script, whi
 -   A virtual environment (recommended)
 -   `sshpass` for automated SCP file transfers
 -   `rclone` configured for Google Drive access
--   Required Python packages are listed in `requirements.txt` (you may need to create this file based on the imports in the scripts). Key packages include:
+-   Required Python packages. Key packages include:
     -   `openeo`
     -   `xarray`
     -   `numpy`
