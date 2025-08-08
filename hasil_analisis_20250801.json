@@ -1,0 +1,486 @@
+{
+  "analysis_timestamp": "2025-08-07T13:13:27.475053",
+  "image_info": {
+    "dimensions": [
+      1915,
+      3944,
+      3
+    ],
+    "analysis_area_pixels": 45286
+  },
+  "statistics": {
+    "total_pixels_analyzed": 45286,
+    "max_concentration": 20.0,
+    "min_concentration": 5.0,
+    "mean_concentration": 14.33036700083911,
+    "median_concentration": 20.0,
+    "std_concentration": 6.56521337501403,
+    "coverage": {
+      "low_pollution": 24.733913350704412,
+      "moderate_pollution": 75.26608664929559,
+      "high_pollution": 0.0
+    }
+  },
+  "hotspots": [
+    {
+      "id": 1,
+      "centroid": [
+        660,
+        420
+      ],
+      "pixel_coordinates": [
+        660,
+        420
+      ],
+      "geo_coordinates": [
+        106.25709939148074,
+        -5.877284595300261
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "KOTA SERANG (terdekat)",
+        "provinsi": "BANTEN"
+      }
+    },
+    {
+      "id": 2,
+      "centroid": [
+        525,
+        450
+      ],
+      "pixel_coordinates": [
+        525,
+        450
+      ],
+      "geo_coordinates": [
+        105.89769269776876,
+        -5.939947780678851
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "Laut Jawa",
+        "provinsi": "PERAIRAN TERBUKA"
+      }
+    },
+    {
+      "id": 3,
+      "centroid": [
+        510,
+        465
+      ],
+      "pixel_coordinates": [
+        510,
+        465
+      ],
+      "geo_coordinates": [
+        105.85775862068965,
+        -5.971279373368146
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "SERANG",
+        "provinsi": "BANTEN"
+      }
+    },
+    {
+      "id": 4,
+      "centroid": [
+        930,
+        480
+      ],
+      "pixel_coordinates": [
+        930,
+        480
+      ],
+      "geo_coordinates": [
+        106.97591277890467,
+        -6.002610966057441
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "KOTA JAKARTA UTARA (terdekat)",
+        "provinsi": "DKI JAKARTA"
+      }
+    },
+    {
+      "id": 5,
+      "centroid": [
+        945,
+        495
+      ],
+      "pixel_coordinates": [
+        945,
+        495
+      ],
+      "geo_coordinates": [
+        107.01584685598377,
+        -6.033942558746737
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 18.77094972067039,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "BEKASI (terdekat)",
+        "provinsi": "JAWA BARAT"
+      }
+    },
+    {
+      "id": 6,
+      "centroid": [
+        960,
+        495
+      ],
+      "pixel_coordinates": [
+        960,
+        495
+      ],
+      "geo_coordinates": [
+        107.05578093306288,
+        -6.033942558746737
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "BEKASI",
+        "provinsi": "JAWA BARAT"
+      }
+    },
+    {
+      "id": 7,
+      "centroid": [
+        960,
+        1035
+      ],
+      "pixel_coordinates": [
+        960,
+        1035
+      ],
+      "geo_coordinates": [
+        107.05578093306288,
+        -7.161879895561357
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "CIANJUR",
+        "provinsi": "JAWA BARAT"
+      }
+    },
+    {
+      "id": 8,
+      "centroid": [
+        660,
+        1050
+      ],
+      "pixel_coordinates": [
+        660,
+        1050
+      ],
+      "geo_coordinates": [
+        106.25709939148074,
+        -7.193211488250652
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "Selat Sunda",
+        "provinsi": "PERAIRAN TERBUKA"
+      }
+    },
+    {
+      "id": 9,
+      "centroid": [
+        735,
+        1080
+      ],
+      "pixel_coordinates": [
+        735,
+        1080
+      ],
+      "geo_coordinates": [
+        106.45676977687627,
+        -7.255874673629243
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "SUKABUMI",
+        "provinsi": "JAWA BARAT"
+      }
+    },
+    {
+      "id": 10,
+      "centroid": [
+        3405,
+        1080
+      ],
+      "pixel_coordinates": [
+        3405,
+        1080
+      ],
+      "geo_coordinates": [
+        113.5650354969574,
+        -7.255874673629243
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 19.387755102040817,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "PAMEKASAN (terdekat)",
+        "provinsi": "JAWA TIMUR"
+      }
+    },
+    {
+      "id": 11,
+      "centroid": [
+        1125,
+        1140
+      ],
+      "pixel_coordinates": [
+        1125,
+        1140
+      ],
+      "geo_coordinates": [
+        107.49505578093306,
+        -7.381201044386422
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "GARUT",
+        "provinsi": "JAWA BARAT"
+      }
+    },
+    {
+      "id": 12,
+      "centroid": [
+        2370,
+        1335
+      ],
+      "pixel_coordinates": [
+        2370,
+        1335
+      ],
+      "geo_coordinates": [
+        110.80958417849898,
+        -7.788511749347259
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "SUKOHARJO",
+        "provinsi": "JAWA TENGAH"
+      }
+    },
+    {
+      "id": 13,
+      "centroid": [
+        960,
+        1350
+      ],
+      "pixel_coordinates": [
+        960,
+        1350
+      ],
+      "geo_coordinates": [
+        107.05578093306288,
+        -7.819843342036553
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "Samudera Hindia",
+        "provinsi": "PERAIRAN TERBUKA"
+      }
+    },
+    {
+      "id": 14,
+      "centroid": [
+        1830,
+        1350
+      ],
+      "pixel_coordinates": [
+        1830,
+        1350
+      ],
+      "geo_coordinates": [
+        109.37195740365111,
+        -7.819843342036553
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "KEBUMEN (terdekat)",
+        "provinsi": "JAWA TENGAH"
+      }
+    },
+    {
+      "id": 15,
+      "centroid": [
+        2100,
+        1350
+      ],
+      "pixel_coordinates": [
+        2100,
+        1350
+      ],
+      "geo_coordinates": [
+        110.09077079107504,
+        -7.819843342036553
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "KULONPROGO",
+        "provinsi": "DI YOGYAKARTA"
+      }
+    },
+    {
+      "id": 16,
+      "centroid": [
+        2415,
+        1350
+      ],
+      "pixel_coordinates": [
+        2415,
+        1350
+      ],
+      "geo_coordinates": [
+        110.92938640973631,
+        -7.819843342036553
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "WONOGIRI",
+        "provinsi": "JAWA TENGAH"
+      }
+    },
+    {
+      "id": 17,
+      "centroid": [
+        2685,
+        1350
+      ],
+      "pixel_coordinates": [
+        2685,
+        1350
+      ],
+      "geo_coordinates": [
+        111.64819979716025,
+        -7.819843342036553
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "PONOROGO",
+        "provinsi": "JAWA TIMUR"
+      }
+    },
+    {
+      "id": 18,
+      "centroid": [
+        2160,
+        1365
+      ],
+      "pixel_coordinates": [
+        2160,
+        1365
+      ],
+      "geo_coordinates": [
+        110.25050709939148,
+        -7.851174934725849
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "BANTUL",
+        "provinsi": "DI YOGYAKARTA"
+      }
+    },
+    {
+      "id": 19,
+      "centroid": [
+        2745,
+        1365
+      ],
+      "pixel_coordinates": [
+        2745,
+        1365
+      ],
+      "geo_coordinates": [
+        111.80793610547667,
+        -7.851174934725849
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "KEDIRI",
+        "provinsi": "JAWA TIMUR"
+      }
+    },
+    {
+      "id": 20,
+      "centroid": [
+        2295,
+        1410
+      ],
+      "pixel_coordinates": [
+        2295,
+        1410
+      ],
+      "geo_coordinates": [
+        110.60991379310344,
+        -7.945169712793733
+      ],
+      "max_concentration": 20.0,
+      "avg_concentration": 20.0,
+      "area_pixels": 225,
+      "location": {
+        "kabupaten": "GUNUNG KIDUL",
+        "provinsi": "DI YOGYAKARTA"
+      }
+    }
+  ],
+  "wind_patterns": [
+    {
+      "plume_id": 1,
+      "estimated_wind_direction": 180.0,
+      "plume_orientation": 90.0,
+      "confidence": "medium"
+    },
+    {
+      "plume_id": 2,
+      "estimated_wind_direction": 190.0,
+      "plume_orientation": 100.0,
+      "confidence": "medium"
+    },
+    {
+      "plume_id": 3,
+      "estimated_wind_direction": 200.0,
+      "plume_orientation": 110.0,
+      "confidence": "medium"
+    }
+  ]
+}
