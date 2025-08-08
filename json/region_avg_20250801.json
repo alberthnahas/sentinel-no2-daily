@@ -1,0 +1,866 @@
+{
+  "date": "2025-08-01",
+  "date_str": "20250801",
+  "analysis_timestamp": "2025-08-07T16:42:17.347921",
+  "java_provinces": {
+    "BANTEN": {
+      "average_no2": 2468226973827072.0,
+      "maximum_no2": 1.4597669347393536e+16,
+      "average_no2_formatted": 2.468226909637451,
+      "maximum_no2_formatted": 14.59766960144043,
+      "pixel_count": 7615,
+      "kabupaten_count": 8,
+      "kabupaten_data": [
+        {
+          "name": "KOTA CILEGON",
+          "average": 2228713424945152.0,
+          "maximum": 7378079504662528.0,
+          "pixel_count": 133
+        },
+        {
+          "name": "KOTA SERANG",
+          "average": 2353269221359616.0,
+          "maximum": 4590645729558528.0,
+          "pixel_count": 218
+        },
+        {
+          "name": "KOTA TANGERANG",
+          "average": 8339221781676032.0,
+          "maximum": 1.4597669347393536e+16,
+          "pixel_count": 147
+        },
+        {
+          "name": "KOTA TANGERANG SELATAN",
+          "average": 5152932647403520.0,
+          "maximum": 7475075435462656.0,
+          "pixel_count": 133
+        },
+        {
+          "name": "LEBAK",
+          "average": 1775836101345280.0,
+          "maximum": 5229091544367104.0,
+          "pixel_count": 2712
+        },
+        {
+          "name": "PANDEGLANG",
+          "average": 1416129503297536.0,
+          "maximum": 5506575422717952.0,
+          "pixel_count": 2269
+        },
+        {
+          "name": "SERANG",
+          "average": 2719183791980544.0,
+          "maximum": 1.0368295865679872e+16,
+          "pixel_count": 1200
+        },
+        {
+          "name": "TANGERANG",
+          "average": 5733834490380288.0,
+          "maximum": 1.4597669347393536e+16,
+          "pixel_count": 834
+        }
+      ]
+    },
+    "JAWA BARAT": {
+      "average_no2": 1300951633756160.0,
+      "maximum_no2": 1.1376631780212736e+16,
+      "average_no2_formatted": 1.300951600074768,
+      "maximum_no2_formatted": 11.376631736755371,
+      "pixel_count": 28975,
+      "kabupaten_count": 27,
+      "kabupaten_data": [
+        {
+          "name": "BANDUNG",
+          "average": 1319119479635968.0,
+          "maximum": 3063491992748032.0,
+          "pixel_count": 1427
+        },
+        {
+          "name": "BANDUNG BARAT",
+          "average": 1080005429821440.0,
+          "maximum": 2835644514566144.0,
+          "pixel_count": 1057
+        },
+        {
+          "name": "BEKASI",
+          "average": 2065282671575040.0,
+          "maximum": 6987654629425152.0,
+          "pixel_count": 1021
+        },
+        {
+          "name": "BOGOR",
+          "average": 2463511636606976.0,
+          "maximum": 1.1376631780212736e+16,
+          "pixel_count": 2448
+        },
+        {
+          "name": "CIAMIS",
+          "average": 545335587897344.0,
+          "maximum": 1754395087732736.0,
+          "pixel_count": 1302
+        },
+        {
+          "name": "CIANJUR",
+          "average": 762720827736064.0,
+          "maximum": 2446384380772352.0,
+          "pixel_count": 2972
+        },
+        {
+          "name": "CIREBON",
+          "average": 1273342376017920.0,
+          "maximum": 2813984189186048.0,
+          "pixel_count": 874
+        },
+        {
+          "name": "GARUT",
+          "average": 789411029581824.0,
+          "maximum": 2475255956242432.0,
+          "pixel_count": 2539
+        },
+        {
+          "name": "INDRAMAYU",
+          "average": 1064219545960448.0,
+          "maximum": 2506973752852480.0,
+          "pixel_count": 1692
+        },
+        {
+          "name": "KARAWANG",
+          "average": 1560458523836416.0,
+          "maximum": 4043153900306432.0,
+          "pixel_count": 1561
+        },
+        {
+          "name": "KOTA BANDUNG",
+          "average": 1752586638065664.0,
+          "maximum": 2025451144871936.0,
+          "pixel_count": 136
+        },
+        {
+          "name": "KOTA BANJAR",
+          "average": 1050657985396736.0,
+          "maximum": 1754395087732736.0,
+          "pixel_count": 106
+        },
+        {
+          "name": "KOTA BEKASI",
+          "average": 3704059521400832.0,
+          "maximum": 5493906879807488.0,
+          "pixel_count": 174
+        },
+        {
+          "name": "KOTA BOGOR",
+          "average": 4300757717221376.0,
+          "maximum": 7632411361804288.0,
+          "pixel_count": 93
+        },
+        {
+          "name": "KOTA CIMAHI",
+          "average": 1380374571646976.0,
+          "maximum": 1602521151832064.0,
+          "pixel_count": 35
+        },
+        {
+          "name": "KOTA CIREBON",
+          "average": 1792156708634624.0,
+          "maximum": 2323652469063680.0,
+          "pixel_count": 34
+        },
+        {
+          "name": "KOTA DEPOK",
+          "average": 5311765369847808.0,
+          "maximum": 8146045963862016.0,
+          "pixel_count": 161
+        },
+        {
+          "name": "KOTA SUKABUMI",
+          "average": 1271016114356224.0,
+          "maximum": 1533159845920768.0,
+          "pixel_count": 43
+        },
+        {
+          "name": "KOTA TASIKMALAYA",
+          "average": 404257454948352.0,
+          "maximum": 1576102405341184.0,
+          "pixel_count": 150
+        },
+        {
+          "name": "KUNINGAN",
+          "average": 1099464651571200.0,
+          "maximum": 2543938657320960.0,
+          "pixel_count": 972
+        },
+        {
+          "name": "MAJALENGKA",
+          "average": 1303913013706752.0,
+          "maximum": 2487775249039360.0,
+          "pixel_count": 1094
+        },
+        {
+          "name": "PANGANDARAN",
+          "average": 748458382196736.0,
+          "maximum": 1455918751416320.0,
+          "pixel_count": 926
+        },
+        {
+          "name": "PURWAKARTA",
+          "average": 1514932944240640.0,
+          "maximum": 3522670704459776.0,
+          "pixel_count": 810
+        },
+        {
+          "name": "SUBANG",
+          "average": 1163177404399616.0,
+          "maximum": 3020706602287104.0,
+          "pixel_count": 1776
+        },
+        {
+          "name": "SUKABUMI",
+          "average": 1272685246021632.0,
+          "maximum": 3167871240765440.0,
+          "pixel_count": 3405
+        },
+        {
+          "name": "SUMEDANG",
+          "average": 997268320681984.0,
+          "maximum": 3063491992748032.0,
+          "pixel_count": 1282
+        },
+        {
+          "name": "TASIKMALAYA",
+          "average": 539610262274048.0,
+          "maximum": 1576102405341184.0,
+          "pixel_count": 2211
+        }
+      ]
+    },
+    "DKI JAKARTA": {
+      "average_no2": 6502597129142272.0,
+      "maximum_no2": 1.4946656915030016e+16,
+      "average_no2_formatted": 6.502597332000732,
+      "maximum_no2_formatted": 14.946657180786133,
+      "pixel_count": 548,
+      "kabupaten_count": 6,
+      "kabupaten_data": [
+        {
+          "name": "KEPULAUAN SERIBU",
+          "average": 600846328922112.0,
+          "maximum": 1892487949975552.0,
+          "pixel_count": 10
+        },
+        {
+          "name": "KOTA JAKARTA BARAT",
+          "average": 1.1079991273979904e+16,
+          "maximum": 1.4946656915030016e+16,
+          "pixel_count": 102
+        },
+        {
+          "name": "KOTA JAKARTA PUSAT",
+          "average": 8026197048950784.0,
+          "maximum": 1.3042872932630528e+16,
+          "pixel_count": 40
+        },
+        {
+          "name": "KOTA JAKARTA SELATAN",
+          "average": 5090714677411840.0,
+          "maximum": 8372796077899776.0,
+          "pixel_count": 126
+        },
+        {
+          "name": "KOTA JAKARTA TIMUR",
+          "average": 4132192062013440.0,
+          "maximum": 5874646603792384.0,
+          "pixel_count": 153
+        },
+        {
+          "name": "KOTA JAKARTA UTARA",
+          "average": 7115833633406976.0,
+          "maximum": 1.4946656915030016e+16,
+          "pixel_count": 117
+        }
+      ]
+    },
+    "JAWA TENGAH": {
+      "average_no2": 1224354918563840.0,
+      "maximum_no2": 6184054437183488.0,
+      "average_no2_formatted": 1.2243549823760986,
+      "maximum_no2_formatted": 6.184054374694824,
+      "pixel_count": 27550,
+      "kabupaten_count": 35,
+      "kabupaten_data": [
+        {
+          "name": "BANJARNEGARA",
+          "average": 582114500149248.0,
+          "maximum": 1274073191546880.0,
+          "pixel_count": 935
+        },
+        {
+          "name": "BANYUMAS",
+          "average": 761390058962944.0,
+          "maximum": 2035433722609664.0,
+          "pixel_count": 1139
+        },
+        {
+          "name": "BATANG",
+          "average": 1882076680814592.0,
+          "maximum": 3918259204128768.0,
+          "pixel_count": 702
+        },
+        {
+          "name": "BLORA",
+          "average": 1087933469687808.0,
+          "maximum": 2425340920070144.0,
+          "pixel_count": 1602
+        },
+        {
+          "name": "BOYOLALI",
+          "average": 1200128350224384.0,
+          "maximum": 3057493265612800.0,
+          "pixel_count": 899
+        },
+        {
+          "name": "BREBES",
+          "average": 1204694571548672.0,
+          "maximum": 2637889456308224.0,
+          "pixel_count": 1436
+        },
+        {
+          "name": "CILACAP",
+          "average": 1009049214648320.0,
+          "maximum": 2614255593455616.0,
+          "pixel_count": 1904
+        },
+        {
+          "name": "DEMAK",
+          "average": 1483574045835264.0,
+          "maximum": 2740206046281728.0,
+          "pixel_count": 798
+        },
+        {
+          "name": "GROBOGAN",
+          "average": 1203892754841600.0,
+          "maximum": 2563157025357824.0,
+          "pixel_count": 1662
+        },
+        {
+          "name": "JEPARA",
+          "average": 1208360863006720.0,
+          "maximum": 2581124215734272.0,
+          "pixel_count": 834
+        },
+        {
+          "name": "KARANGANYAR",
+          "average": 1084647014400000.0,
+          "maximum": 2857186459910144.0,
+          "pixel_count": 657
+        },
+        {
+          "name": "KEBUMEN",
+          "average": 479835927347200.0,
+          "maximum": 2338612108591104.0,
+          "pixel_count": 1096
+        },
+        {
+          "name": "KENDAL",
+          "average": 1924157293985792.0,
+          "maximum": 3548450708783104.0,
+          "pixel_count": 825
+        },
+        {
+          "name": "KLATEN",
+          "average": 1499294834098176.0,
+          "maximum": 2757867220238336.0,
+          "pixel_count": 572
+        },
+        {
+          "name": "KOTA MAGELANG",
+          "average": 1874873886441472.0,
+          "maximum": 2096939130683392.0,
+          "pixel_count": 14
+        },
+        {
+          "name": "KOTA PEKALONGAN",
+          "average": 1694373725077504.0,
+          "maximum": 2547444155940864.0,
+          "pixel_count": 40
+        },
+        {
+          "name": "KOTA SALATIGA",
+          "average": 852281834602496.0,
+          "maximum": 1668975838625792.0,
+          "pixel_count": 48
+        },
+        {
+          "name": "KOTA SEMARANG",
+          "average": 2557727381389312.0,
+          "maximum": 6184054437183488.0,
+          "pixel_count": 301
+        },
+        {
+          "name": "KOTA SURAKARTA",
+          "average": 2389789059842048.0,
+          "maximum": 2541002241867776.0,
+          "pixel_count": 38
+        },
+        {
+          "name": "KOTA TEGAL",
+          "average": 1174696506687488.0,
+          "maximum": 1748527759753216.0,
+          "pixel_count": 31
+        },
+        {
+          "name": "KUDUS",
+          "average": 1098738734989312.0,
+          "maximum": 2681773553090560.0,
+          "pixel_count": 369
+        },
+        {
+          "name": "MAGELANG",
+          "average": 1325888750747648.0,
+          "maximum": 2621455837691904.0,
+          "pixel_count": 924
+        },
+        {
+          "name": "PATI",
+          "average": 1523166664982528.0,
+          "maximum": 2838813663559680.0,
+          "pixel_count": 1282
+        },
+        {
+          "name": "PEKALONGAN",
+          "average": 1804135909294080.0,
+          "maximum": 3918259204128768.0,
+          "pixel_count": 730
+        },
+        {
+          "name": "PEMALANG",
+          "average": 1603382158557184.0,
+          "maximum": 2798855166885888.0,
+          "pixel_count": 937
+        },
+        {
+          "name": "PURBALINGGA",
+          "average": 912274743099392.0,
+          "maximum": 2597300673183744.0,
+          "pixel_count": 659
+        },
+        {
+          "name": "PURWOREJO",
+          "average": 744518018138112.0,
+          "maximum": 2359900382429184.0,
+          "pixel_count": 885
+        },
+        {
+          "name": "REMBANG",
+          "average": 1645582493941760.0,
+          "maximum": 2939893839822848.0,
+          "pixel_count": 850
+        },
+        {
+          "name": "SEMARANG",
+          "average": 1214687618269184.0,
+          "maximum": 2614446987935744.0,
+          "pixel_count": 830
+        },
+        {
+          "name": "SRAGEN",
+          "average": 1050756769644544.0,
+          "maximum": 2242682403422208.0,
+          "pixel_count": 819
+        },
+        {
+          "name": "SUKOHARJO",
+          "average": 1370016989577216.0,
+          "maximum": 2246253400293376.0,
+          "pixel_count": 409
+        },
+        {
+          "name": "TEGAL",
+          "average": 1734144585367552.0,
+          "maximum": 2643805505323008.0,
+          "pixel_count": 805
+        },
+        {
+          "name": "TEMANGGUNG",
+          "average": 1107603346161664.0,
+          "maximum": 2614446987935744.0,
+          "pixel_count": 711
+        },
+        {
+          "name": "WONOGIRI",
+          "average": 860277922856960.0,
+          "maximum": 2137835272404992.0,
+          "pixel_count": 1559
+        },
+        {
+          "name": "WONOSOBO",
+          "average": 637094712049664.0,
+          "maximum": 1285387343364096.0,
+          "pixel_count": 827
+        }
+      ]
+    },
+    "DI YOGYAKARTA": {
+      "average_no2": 1028001093386240.0,
+      "maximum_no2": 3529026450751488.0,
+      "average_no2_formatted": 1.028001070022583,
+      "maximum_no2_formatted": 3.529026508331299,
+      "pixel_count": 2491,
+      "kabupaten_count": 5,
+      "kabupaten_data": [
+        {
+          "name": "BANTUL",
+          "average": 1030334938349568.0,
+          "maximum": 3529026450751488.0,
+          "pixel_count": 427
+        },
+        {
+          "name": "GUNUNG KIDUL",
+          "average": 677742550974464.0,
+          "maximum": 1919644759752704.0,
+          "pixel_count": 1213
+        },
+        {
+          "name": "KOTA YOGYAKARTA",
+          "average": 3032670502125568.0,
+          "maximum": 3529026450751488.0,
+          "pixel_count": 26
+        },
+        {
+          "name": "KULONPROGO",
+          "average": 989387592564736.0,
+          "maximum": 2328795692400640.0,
+          "pixel_count": 469
+        },
+        {
+          "name": "SLEMAN",
+          "average": 1581934836711424.0,
+          "maximum": 3529026450751488.0,
+          "pixel_count": 471
+        }
+      ]
+    },
+    "JAWA TIMUR": {
+      "average_no2": 1241778124488704.0,
+      "maximum_no2": 1.3622713918685184e+16,
+      "average_no2_formatted": 1.2417781352996826,
+      "maximum_no2_formatted": 13.622714042663574,
+      "pixel_count": 35617,
+      "kabupaten_count": 38,
+      "kabupaten_data": [
+        {
+          "name": "BANGKALAN",
+          "average": 545641570762752.0,
+          "maximum": 2367799632592896.0,
+          "pixel_count": 1071
+        },
+        {
+          "name": "BANYUWANGI",
+          "average": 255482052739072.0,
+          "maximum": 1668570501087232.0,
+          "pixel_count": 2957
+        },
+        {
+          "name": "BLITAR",
+          "average": 876576786874368.0,
+          "maximum": 1868034151022592.0,
+          "pixel_count": 1439
+        },
+        {
+          "name": "BOJONEGORO",
+          "average": 1534750460215296.0,
+          "maximum": 2773746788073472.0,
+          "pixel_count": 1894
+        },
+        {
+          "name": "BONDOWOSO",
+          "average": 979794984435712.0,
+          "maximum": 1911477745221632.0,
+          "pixel_count": 1274
+        },
+        {
+          "name": "GRESIK",
+          "average": 2185924813258752.0,
+          "maximum": 8305000019132416.0,
+          "pixel_count": 1031
+        },
+        {
+          "name": "JEMBER",
+          "average": 595517079814144.0,
+          "maximum": 1117963411259392.0,
+          "pixel_count": 2708
+        },
+        {
+          "name": "JOMBANG",
+          "average": 1964681249947648.0,
+          "maximum": 3216265590079488.0,
+          "pixel_count": 909
+        },
+        {
+          "name": "KEDIRI",
+          "average": 1248317346414592.0,
+          "maximum": 2880130443640832.0,
+          "pixel_count": 1249
+        },
+        {
+          "name": "KOTA BATU",
+          "average": 1628318872895488.0,
+          "maximum": 2064310129917952.0,
+          "pixel_count": 159
+        },
+        {
+          "name": "KOTA BLITAR",
+          "average": 1063504769449984.0,
+          "maximum": 1219867617263616.0,
+          "pixel_count": 26
+        },
+        {
+          "name": "KOTA KEDIRI",
+          "average": 1601056702201856.0,
+          "maximum": 2236729981403136.0,
+          "pixel_count": 55
+        },
+        {
+          "name": "KOTA MADIUN",
+          "average": 2141826236547072.0,
+          "maximum": 2771407104638976.0,
+          "pixel_count": 28
+        },
+        {
+          "name": "KOTA MALANG",
+          "average": 1954734374125568.0,
+          "maximum": 2696305038065664.0,
+          "pixel_count": 89
+        },
+        {
+          "name": "KOTA MOJOKERTO",
+          "average": 1848648010825728.0,
+          "maximum": 2696259135602688.0,
+          "pixel_count": 16
+        },
+        {
+          "name": "KOTA PASURUAN",
+          "average": 2235687914962944.0,
+          "maximum": 2402167960895488.0,
+          "pixel_count": 32
+        },
+        {
+          "name": "KOTA PROBOLINGGO",
+          "average": 2099339480530944.0,
+          "maximum": 2979081389867008.0,
+          "pixel_count": 45
+        },
+        {
+          "name": "KOTA SURABAYA",
+          "average": 1668263142490112.0,
+          "maximum": 3732226453798912.0,
+          "pixel_count": 264
+        },
+        {
+          "name": "LAMONGAN",
+          "average": 2222889046638592.0,
+          "maximum": 7926025526706176.0,
+          "pixel_count": 1431
+        },
+        {
+          "name": "LUMAJANG",
+          "average": 478560087179264.0,
+          "maximum": 1117675447123968.0,
+          "pixel_count": 1470
+        },
+        {
+          "name": "MADIUN",
+          "average": 1295223221125120.0,
+          "maximum": 2783017743417344.0,
+          "pixel_count": 910
+        },
+        {
+          "name": "MAGETAN",
+          "average": 1081000654274560.0,
+          "maximum": 2783017743417344.0,
+          "pixel_count": 581
+        },
+        {
+          "name": "MALANG",
+          "average": 1101408795361280.0,
+          "maximum": 3067831520329728.0,
+          "pixel_count": 2841
+        },
+        {
+          "name": "MOJOKERTO",
+          "average": 1886782757011456.0,
+          "maximum": 3579932013756416.0,
+          "pixel_count": 804
+        },
+        {
+          "name": "NGANJUK",
+          "average": 1487960683839488.0,
+          "maximum": 3132921212829696.0,
+          "pixel_count": 1060
+        },
+        {
+          "name": "NGAWI",
+          "average": 1153408769720320.0,
+          "maximum": 2602184856305664.0,
+          "pixel_count": 1145
+        },
+        {
+          "name": "PACITAN",
+          "average": 624486567116800.0,
+          "maximum": 1873997847330816.0,
+          "pixel_count": 1178
+        },
+        {
+          "name": "PAMEKASAN",
+          "average": 345018850082816.0,
+          "maximum": 1301209331793920.0,
+          "pixel_count": 649
+        },
+        {
+          "name": "PASURUAN",
+          "average": 2039291005894656.0,
+          "maximum": 3843518720114688.0,
+          "pixel_count": 1221
+        },
+        {
+          "name": "PONOROGO",
+          "average": 707038724227072.0,
+          "maximum": 2028754243158016.0,
+          "pixel_count": 1165
+        },
+        {
+          "name": "PROBOLINGGO",
+          "average": 2950817015398400.0,
+          "maximum": 1.3622713918685184e+16,
+          "pixel_count": 1424
+        },
+        {
+          "name": "SAMPANG",
+          "average": 194570356785152.0,
+          "maximum": 1465279095767040.0,
+          "pixel_count": 1008
+        },
+        {
+          "name": "SIDOARJO",
+          "average": 1034865994629120.0,
+          "maximum": 3254965392900096.0,
+          "pixel_count": 596
+        },
+        {
+          "name": "SITUBONDO",
+          "average": 931578473611264.0,
+          "maximum": 9539110553255936.0,
+          "pixel_count": 1355
+        },
+        {
+          "name": "SUMENEP",
+          "average": 242331550744576.0,
+          "maximum": 1574800359161856.0,
+          "pixel_count": 1705
+        },
+        {
+          "name": "TRENGGALEK",
+          "average": 407471935979520.0,
+          "maximum": 1303127168909312.0,
+          "pixel_count": 1020
+        },
+        {
+          "name": "TUBAN",
+          "average": 1792437894774784.0,
+          "maximum": 4591686185385984.0,
+          "pixel_count": 1617
+        },
+        {
+          "name": "TULUNGAGUNG",
+          "average": 517477389828096.0,
+          "maximum": 1424615687585792.0,
+          "pixel_count": 937
+        }
+      ]
+    }
+  },
+  "high_pollution_areas": {
+    "threshold_note": "Areas with average NO2 > 5×10¹⁵ molekul/cm²",
+    "threshold_value": 5.0,
+    "threshold_unit": "×10¹⁵ molekul/cm²",
+    "count": 8,
+    "areas": [
+      {
+        "kabupaten": "KOTA TANGERANG",
+        "province": "BANTEN",
+        "average_no2": 8339221781676032.0,
+        "maximum_no2": 1.4597669347393536e+16,
+        "average_no2_formatted": 8.339221954345703,
+        "maximum_no2_formatted": 14.59766960144043,
+        "pixel_count": 147
+      },
+      {
+        "kabupaten": "KOTA TANGERANG SELATAN",
+        "province": "BANTEN",
+        "average_no2": 5152932647403520.0,
+        "maximum_no2": 7475075435462656.0,
+        "average_no2_formatted": 5.152932643890381,
+        "maximum_no2_formatted": 7.475075721740723,
+        "pixel_count": 133
+      },
+      {
+        "kabupaten": "TANGERANG",
+        "province": "BANTEN",
+        "average_no2": 5733834490380288.0,
+        "maximum_no2": 1.4597669347393536e+16,
+        "average_no2_formatted": 5.733834743499756,
+        "maximum_no2_formatted": 14.59766960144043,
+        "pixel_count": 834
+      },
+      {
+        "kabupaten": "KOTA DEPOK",
+        "province": "JAWA BARAT",
+        "average_no2": 5311765369847808.0,
+        "maximum_no2": 8146045963862016.0,
+        "average_no2_formatted": 5.311765670776367,
+        "maximum_no2_formatted": 8.146045684814453,
+        "pixel_count": 161
+      },
+      {
+        "kabupaten": "KOTA JAKARTA BARAT",
+        "province": "DKI JAKARTA",
+        "average_no2": 1.1079991273979904e+16,
+        "maximum_no2": 1.4946656915030016e+16,
+        "average_no2_formatted": 11.079991340637207,
+        "maximum_no2_formatted": 14.946657180786133,
+        "pixel_count": 102
+      },
+      {
+        "kabupaten": "KOTA JAKARTA PUSAT",
+        "province": "DKI JAKARTA",
+        "average_no2": 8026197048950784.0,
+        "maximum_no2": 1.3042872932630528e+16,
+        "average_no2_formatted": 8.02619743347168,
+        "maximum_no2_formatted": 13.04287338256836,
+        "pixel_count": 40
+      },
+      {
+        "kabupaten": "KOTA JAKARTA SELATAN",
+        "province": "DKI JAKARTA",
+        "average_no2": 5090714677411840.0,
+        "maximum_no2": 8372796077899776.0,
+        "average_no2_formatted": 5.090714931488037,
+        "maximum_no2_formatted": 8.372796058654785,
+        "pixel_count": 126
+      },
+      {
+        "kabupaten": "KOTA JAKARTA UTARA",
+        "province": "DKI JAKARTA",
+        "average_no2": 7115833633406976.0,
+        "maximum_no2": 1.4946656915030016e+16,
+        "average_no2_formatted": 7.115833759307861,
+        "maximum_no2_formatted": 14.946657180786133,
+        "pixel_count": 117
+      }
+    ]
+  },
+  "summary": {
+    "total_provinces": 6,
+    "total_high_pollution_areas": 8,
+    "provinces_with_data": 6
+  }
+}
