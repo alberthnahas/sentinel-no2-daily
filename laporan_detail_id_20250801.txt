@@ -1,0 +1,113 @@
+ANALISIS DATA SATELIT TROPOMI NO2
+LAPORAN TEKNIS DETAIL
+
+═══════════════════════════════════════════════════════════════════════
+
+METADATA ANALISIS
+═══════════════════════════════════════════════════════════════════════
+Waktu Analisis: 7 Agustus 2025 pukul 13:13:27 WIB
+Dimensi Citra Sumber: 1915 × 3944 piksel
+Total Piksel yang Dianalisis: 45,286
+Cakupan Analisis: 45,286 piksel
+
+RINGKASAN STATISTIK
+═══════════════════════════════════════════════════════════════════════
+Statistik Konsentrasi NO2 (×10¹⁵ molekul/cm²):
+  • Maksimum:    20.000
+  • Minimum:     5.000
+  • Rata-rata:   14.330
+  • Median:      20.000
+  • Deviasi Std: 6.565
+
+ANALISIS CAKUPAN SPASIAL
+═══════════════════════════════════════════════════════════════════════
+Distribusi Tingkat Polusi:
+  • Polusi Rendah (2-8 unit):    24.73%
+  • Polusi Sedang (8-15 unit):   75.27%
+  • Polusi Tinggi (>15 unit):    0.00%
+
+ANALISIS HOTSPOT
+═══════════════════════════════════════════════════════════════════════
+Total Hotspot yang Terdeteksi: 20
+
+10 Hotspot Polusi Teratas (berdasarkan konsentrasi):
+   1. KOTA SERANG (terdekat), BANTEN
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 5.877°S, 106.257°E
+      Area: 225 piksel
+   2. Laut Jawa, PERAIRAN TERBUKA
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 5.940°S, 105.898°E
+      Area: 225 piksel
+   3. SERANG, BANTEN
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 5.971°S, 105.858°E
+      Area: 225 piksel
+   4. KOTA JAKARTA UTARA (terdekat), DKI JAKARTA
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 6.003°S, 106.976°E
+      Area: 225 piksel
+   5. BEKASI (terdekat), JAWA BARAT
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 18.77 ×10¹⁵ molekul/cm²
+      Koordinat: 6.034°S, 107.016°E
+      Area: 225 piksel
+   6. BEKASI, JAWA BARAT
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 6.034°S, 107.056°E
+      Area: 225 piksel
+   7. CIANJUR, JAWA BARAT
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 7.162°S, 107.056°E
+      Area: 225 piksel
+   8. Selat Sunda, PERAIRAN TERBUKA
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 7.193°S, 106.257°E
+      Area: 225 piksel
+   9. SUKABUMI, JAWA BARAT
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 20.00 ×10¹⁵ molekul/cm²
+      Koordinat: 7.256°S, 106.457°E
+      Area: 225 piksel
+  10. PAMEKASAN (terdekat), JAWA TIMUR
+      Konsentrasi Maks: 20.00 ×10¹⁵ molekul/cm²
+      Rata-rata: 19.39 ×10¹⁵ molekul/cm²
+      Koordinat: 7.256°S, 113.565°E
+      Area: 225 piksel
+
+ANALISIS TRANSPORT ATMOSFERIK
+═══════════════════════════════════════════════════════════════════════
+Arah angin dominan: Selatan (190.0°) berdasarkan analisis 3 plume
+
+Plume yang Terdeteksi: 3
+Analisis Angin per Plume:
+  Plume 1: 180.0° (kepercayaan medium)
+  Plume 2: 190.0° (kepercayaan medium)
+  Plume 3: 200.0° (kepercayaan medium)
+
+PENILAIAN LINGKUNGAN
+═══════════════════════════════════════════════════════════════════════
+Status Kualitas Udara: SEDANG - NO2 meningkat di area terlokalisasi
+
+Penilaian Sumber Emisi:
+• Beberapa sumber emisi signifikan teridentifikasi
+• Pola polusi lokal teramati
+
+REKOMENDASI
+═══════════════════════════════════════════════════════════════════════
+• Lanjutkan pemantauan pada area berkonsentrasi meningkat
+• Disarankan penilaian sumber emisi
+• Disarankan validasi ground-truth multi-titik
+• Direkomendasikan pembaruan inventori emisi komprehensif
+
+═══════════════════════════════════════════════════════════════════════
+Laporan dibuat oleh Sistem Analisis Otomatis TROPOMI NO2
+Analisis diselesaikan pada: 07 August 2025 pukul 13:13:30
+═══════════════════════════════════════════════════════════════════════
