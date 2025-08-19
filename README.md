@@ -26,7 +26,7 @@ The entire process is automated via the `00-autorun-sentinel-no2.sh` script, whi
 2.  **Download & Process NO2 Data**: `01-sentinel-no2-final.py` downloads, merges, and interpolates the daily NO2 data.
 3.  **Download Wind Data**: `02-get-wind.py` downloads the corresponding wind data.
 4.  **Visualize Data**: `03-visualize-no2.py` creates the final map visualization with NO2 concentrations and wind arrows.
-5.  **Quick Analysis (ID)**: `04-analisis-cepat-id.py` performs a rapid analysis of the generated image to identify hotspots and generate Indonesian language reports.
+5.  **Quick Analysis (ID)**: `04-quick-analysis.py` performs a rapid analysis of the generated image to identify hotspots and generate Indonesian language reports.
 6.  **Generate Windrose Data**: `05-generate-windrose-data.py` processes the wind NetCDF file to create JSON data for wind rose plots.
 7.  **Calculate Regional Averages**: `06-region-average.py` computes the average NO2 concentrations for provinces and cities across Java.
 8.  **File Transfer**: Transfers the output files (`png`, `json`, `txt`) to a specified web server.
@@ -38,7 +38,7 @@ The entire process is automated via the `00-autorun-sentinel-no2.sh` script, whi
 -   `code/01-sentinel-no2-final.py`: Downloads Sentinel-5P NO2 data, divides the Indonesian region into smaller boxes for processing, merges the results, and performs linear and cubic interpolation.
 -   `code/02-get-wind.py`: Retrieves wind data (U and V components) from the CAMS forecast.
 -   `code/03-visualize-no2.py`: Generates a PNG map visualizing the processed NO2 data, overlaid with wind vectors and administrative boundaries.
--   `code/04-analisis-cepat-id.py`: A comprehensive script that analyzes the generated PNG, identifies hotspots with geographic mapping, and uses `report_generator_id.py` to create text reports in Indonesian.
+-   `code/04-quick-analysis.py`: A comprehensive script that analyzes the generated PNG, identifies hotspots with geographic mapping, and uses `report_generator_id.py` to create text reports in Indonesian.
 -   `code/05-generate-windrose-data.py`: Processes wind data to generate binned speed and direction data in JSON format, suitable for creating wind rose charts.
 -   `code/06-region-average.py`: Calculates and saves the average NO2 concentration for predefined administrative regions (provinces/cities in Java).
 -   `code/report_generator_id.py`: A helper module to generate formatted text reports (short, executive, detailed) in Indonesian from a JSON analysis file.
