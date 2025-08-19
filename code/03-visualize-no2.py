@@ -306,7 +306,9 @@ def visualize_no2_custom(filename, wind_filename=None):
         print("   ✅ Wind legend added.")
 
     # --- Save and Show ---
-    output_filename = filename.replace('.nc', '.png')
+    import os
+    base_png = os.path.basename(filename).replace('.nc', '.png')
+    output_filename = os.path.join('png', base_png)
     plt.savefig(output_filename, dpi=300, bbox_inches='tight', pad_inches=0.05)
     print(f"✅ Visualization saved as {output_filename}")
 

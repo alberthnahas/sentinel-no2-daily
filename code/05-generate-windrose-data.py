@@ -73,7 +73,7 @@ def calculate_wind_data(ds):
     
     # Calculate wind direction (degrees)
     # Converts from meteorological angle (where wind comes from)
-    wind_dir = (np.arctan2(u_wind, v_wind) * 180 / np.pi + 360) % 360
+    wind_dir = (np.degrees(np.arctan2(-u_wind, -v_wind)) + 360) % 360
     
     print(f"   ✅ Calculated speed and direction for {len(wind_speed)} data points within the region.")
     return wind_speed, wind_dir

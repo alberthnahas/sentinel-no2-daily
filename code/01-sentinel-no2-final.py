@@ -130,10 +130,15 @@ def main():
     
     box_files = []
     for name, extent in grid_boxes.items():
-        try:
-            box_files.append(process_box(connection, date_str, date_str, name, extent))
-        except Exception as e:
-            print(f"   ❌ Failed to process {name}: {e}")
+        success = False
+        while not success:
+            try:
+                box_files.append(process_box(connection, date_str, date_str, name, extent))
+                success = True
+            except Exception as e:
+                print(f"   ❌ Failed to process {name}: {e}")
+                print(f"   🔁 Retrying download for {name}...")
+                time.sleep(5)  # Wait 5 seconds before retrying
 
     if not box_files:
         print("\n❌ No data downloaded. Exiting."); return
