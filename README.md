@@ -1,19 +1,19 @@
-# Sentinel-5P NO2 Daily Analysis for Indonesia
+# Sentinel-5P NO<sub>2</sub> Daily Analysis for Indonesia
 
-This repository contains a suite of Python scripts designed to automate the daily download, processing, analysis, and visualization of Sentinel-5P TROPOMI NO2 data over Indonesia. The workflow also incorporates wind data to provide a more comprehensive analysis of pollution transport and generates daily reports in various formats.
+This repository contains a suite of Python scripts designed to automate the daily download, processing, analysis, and visualization of Sentinel-5P TROPOMI NO<sub>2</sub> data over Indonesia. The workflow also incorporates wind data to provide a more comprehensive analysis of pollution transport and generates daily reports in various formats.
 
-![Sample NO2 Visualization](png/NO2_Indonesia_Daily_20250801_linear_interp.png)
+![Sample NO<sub>2</sub> Visualization](png/NO2_Indonesia_Daily_20250801_linear_interp.png)
 
 ## Features
 
-- **Automated Data Acquisition**: Downloads daily Sentinel-5P L2 NO2 data from the Copernicus Data Space Ecosystem.
+- **Automated Data Acquisition**: Downloads daily Sentinel-5P L2 NO<sub>2</sub> data from the Copernicus Data Space Ecosystem.
 - **Wind Data Integration**: Fetches wind data from the CAMS global atmospheric composition forecasts.
 - **Advanced Data Processing**: Merges data tiles, performs spatial interpolation (linear and cubic), and handles data cleaning.
 - **Comprehensive Analysis**:
     - Detects high-pollution hotspots.
-    - Calculates regional NO2 averages for provinces and cities in Java.
+    - Calculates regional NO<sub>2</sub> averages for provinces and cities in Java.
     - Generates data for wind rose diagrams.
-- **Rich Visualization**: Creates high-quality maps of NO2 concentrations with wind vector overlays and administrative boundaries.
+- **Rich Visualization**: Creates high-quality maps of NO<sub>2</sub> concentrations with wind vector overlays and administrative boundaries.
 - **Automated Reporting**: Generates daily reports in Indonesian, including short summaries, executive summaries, and detailed technical reports.
 - **Automated Workflow**: A master shell script (`00-autorun-sentinel-no2.sh`) orchestrates the entire daily workflow.
 - **File Management**: Automatically transfers generated images and reports to a web server and archives NetCDF files to Google Drive.
@@ -23,27 +23,27 @@ This repository contains a suite of Python scripts designed to automate the dail
 The entire process is automated via the `00-autorun-sentinel-no2.sh` script, which executes the following steps in sequence:
 
 1.  **Activate Environment**: Activates the Python virtual environment.
-2.  **Download & Process NO2 Data**: `01-sentinel-no2-final.py` downloads, merges, and interpolates the daily NO2 data.
+2.  **Download & Process  Data**: `01-sentinel--final.py` downloads, merges, and interpolates the daily NO<sub>2</sub> data.
 3.  **Download Wind Data**: `02-get-wind.py` downloads the corresponding wind data.
-4.  **Visualize Data**: `03-visualize-no2.py` creates the final map visualization with NO2 concentrations and wind arrows.
+4.  **Visualize Data**: `03-visualize-no2.py` creates the final map visualization with NO<sub>2</sub> concentrations and wind arrows.
 5.  **Quick Analysis (ID)**: `04-quick-analysis.py` performs a rapid analysis of the generated image to identify hotspots and generate Indonesian language reports.
 6.  **Generate Windrose Data**: `05-generate-windrose-data.py` processes the wind NetCDF file to create JSON data for wind rose plots.
-7.  **Calculate Regional Averages**: `06-region-average.py` computes the average NO2 concentrations for provinces and cities across Java.
+7.  **Calculate Regional Averages**: `06-region-average.py` computes the average NO<sub>2</sub> concentrations for provinces and cities across Java.
 8.  **File Transfer**: Transfers the output files (`png`, `json`, `txt`) to a specified web server.
 9.  **Archive Data**: Uploads the raw NetCDF data files (`.nc`) from the `nc/` directory to a Google Drive folder using `rclone`.
 
 ## Scripts Description
 
 -   `code/00-autorun-sentinel-no2.sh`: The main automation script that runs the entire daily workflow.
--   `code/01-sentinel-no2-final.py`: Downloads Sentinel-5P NO2 data, divides the Indonesian region into smaller boxes for processing, merges the results, and performs linear and cubic interpolation.
+-   `code/01-sentinel-no2-final.py`: Downloads Sentinel-5P NO<sub>2</sub> data, divides the Indonesian region into smaller boxes for processing, merges the results, and performs linear and cubic interpolation.
 -   `code/02-get-wind.py`: Retrieves wind data (U and V components) from the CAMS forecast.
--   `code/03-visualize-no2.py`: Generates a PNG map visualizing the processed NO2 data, overlaid with wind vectors and administrative boundaries.
+-   `code/03-visualize-no2.py`: Generates a PNG map visualizing the processed NO<sub>2</sub> data, overlaid with wind vectors and administrative boundaries.
 -   `code/04-quick-analysis.py`: A comprehensive script that analyzes the generated PNG, identifies hotspots with geographic mapping, and uses `report_generator_id.py` to create text reports in Indonesian.
 -   `code/05-generate-windrose-data.py`: Processes wind data to generate binned speed and direction data in JSON format, suitable for creating wind rose charts.
--   `code/06-region-average.py`: Calculates and saves the average NO2 concentration for predefined administrative regions (provinces/cities in Java).
+-   `code/06-region-average.py`: Calculates and saves the average NO<sub>2</sub> concentration for predefined administrative regions (provinces/cities in Java).
 -   `code/report_generator_id.py`: A helper module to generate formatted text reports (short, executive, detailed) in Indonesian from a JSON analysis file.
 -   `code/tropomi_analyzer.py`: A general-purpose TROPOMI image analyzer for detecting hotspots and calculating statistics.
--   `code/xx-sentinel-no2-date.py`: A utility script to run the NO2 data processing for a specific historical date.
+-   `code/xx-sentinel-no2-date.py`: A utility script to run the NO<sub>2</sub> data processing for a specific historical date.
 -   `code/yy-get-wind-date.py`: A utility script to download wind data for a specific historical date.
 
 ## Prerequisites
@@ -120,7 +120,7 @@ The entire process is automated via the `00-autorun-sentinel-no2.sh` script, whi
 
 The workflow generates files in the following directories:
 
--   `nc/`: Contains the downloaded and processed NetCDF files for NO2 and wind data.
+-   `nc/`: Contains the downloaded and processed NetCDF files for NO<sub>2</sub> and wind data.
 -   `png/`: Contains the final visualization map and analysis charts.
 -   `json/`: Contains structured JSON files with analysis results, regional averages, and windrose data.
 -   `txt/`: Contains the final text reports in Indonesian.
